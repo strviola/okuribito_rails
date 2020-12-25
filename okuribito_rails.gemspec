@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["spec/**/*"]
 
   s.add_dependency "okuribito"
-  s.add_dependency "rails", ['>= 4.0', '< 6']
+  s.add_dependency "rails", ['>= 4.0', '<= 6']
   s.add_dependency "kaminari"
 
   s.add_development_dependency "sqlite3"
